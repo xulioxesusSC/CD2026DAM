@@ -15,6 +15,8 @@ public class TresBucles {
             j++;
         }
 
+        bucleInterno();
+        
         // 3. Bucle DO-WHILE
         int k = 1;
 
@@ -22,5 +24,14 @@ public class TresBucles {
             System.out.println("DO-WHILE: " + k);
             k++;
         } while (k <= 3);
+    }
+
+    public static void bucleInterno(){
+        int k = 1;
+
+        do {
+            System.out.println("DO-WHILE: " + k);
+            k++;
+        }
     }
 }
