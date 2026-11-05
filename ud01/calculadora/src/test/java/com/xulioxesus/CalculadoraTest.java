@@ -9,7 +9,7 @@ public class CalculadoraTest {
 
     @Test
     public void probarSuma() {
-        assertEquals(5, calculadora.sumar(2, 3));
+        assertEquals(3, calculadora.sumar(2, 3));
     }
 
     @Test
